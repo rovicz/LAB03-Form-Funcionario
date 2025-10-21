@@ -3,7 +3,9 @@ import { UserForm } from "./components/UserForm/UserForm";
 const App = () => {
   return (
     <>
-      <UserForm />
+      <div className="w-screen">
+        <UserForm />
+      </div>
     </>
   );
 };
